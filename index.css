@@ -17,6 +17,13 @@ nav {
     z-index: 1;
 }
 
+footer {
+    background-color: #1F4E5F;
+    overflow: hidden;
+    width: 100%;
+    margin: 0em;
+}
+
 nav > a > img {
     height: 50px;
     display: inline;
@@ -39,11 +46,23 @@ nav ul {
     margin-bottom: 0em;
 }
 
+footer ul {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
 nav ul li{
     display: inline-block;
     list-style-type: none;
     margin-left: 2.5em;
+}
 
+footer ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 2.5em;p[
 }
 
 nav > ul > li > a {
@@ -54,4 +73,24 @@ nav > ul > li > a {
     line-height: 2em;
     padding: 0.5em 0.5em;
     text-decoration: none;
+}
+
+footer > ul > li > a {
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
 }
