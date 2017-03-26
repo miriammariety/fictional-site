@@ -14,7 +14,7 @@ nav {
 }
 
 nav > a > img {
-    width: 200px;
+    height: 50px;
     display: inline;
     line-height: 2em;
     margin-left: 1em;
@@ -31,7 +31,6 @@ body {
 nav ul {
     display: inline;
     float: right;
-    padding: 1em 1em;
     margin-right: 1em;
     margin-bottom: 0em;
 }
