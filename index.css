@@ -335,3 +335,41 @@ nav > ul > li > a:hover {
     position: relative;
     top: -77px;
 }
+#services {
+    width: 100%;
+    position: relative;
+    height: 90vh;
+    margin: 15px;
+}
+
+#services div {
+    position: absolute;
+}
+
+#services .column {
+    width: 32%;
+    height: 100%;
+}
+
+#col1 {
+    background-color: red;
+}
+
+#col2 {
+    margin-left: 33%;
+    background-color: green;
+}
+
+#col3 {
+    margin-left: 66%;
+    background-color: blue;
+}
+
+.price {
+    width: 100%;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    top: 48px;
+    font-family: "TitleFont"
+}
