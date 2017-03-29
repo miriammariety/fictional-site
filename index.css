@@ -18,8 +18,6 @@ body {
     margin: auto;
 }
 
-#contact-details {}
-
 footer {
     color: #F9F8ED;
     text-align: center;
@@ -173,6 +171,10 @@ nav > ul > li > a:hover {
     margin: 15px;
 }
 
+#about-title {
+    color: #122D42;
+}
+
 #about-img {
     float: left;
     height: 100%;
@@ -197,13 +199,16 @@ nav > ul > li > a:hover {
     margin: 0;
 }
 
-#about-description > h1 {
-    color: #4D727E;
+.secondary-title {
     font-family: 'SecTitleFont';
     width: 100%;
     font-size: 5em;
     margin: 0;
     letter-spacing: 10px;
+}
+
+#contact-title {
+    color: #79A8A9;
 }
 
 .helper {
@@ -213,7 +218,7 @@ nav > ul > li > a:hover {
 }
 
 #contact {
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     background: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.9)), url(media/contact-bg.jpeg);
     background-size: cover;
@@ -230,16 +235,6 @@ nav > ul > li > a:hover {
 #other-div {
     margin-left: 55%;
     width: 45%;
-}
-
-#contact-title {
-    font-family: 'SecTitleFont';
-    color: #79A8A9;
-    width: 100%;
-    font-size: 5em;
-    margin: 0;
-    letter-spacing: 10px;
-    text-align: center;
 }
 
 #contact-description{
@@ -336,10 +331,16 @@ nav > ul > li > a:hover {
     top: -77px;
 }
 #services {
+    background: #F4F7F7;
     width: 100%;
     position: relative;
-    height: 90vh;
+    height: 100vh;
     margin: 15px;
+}
+
+#services .secondary-title {
+    text-align: center;
+    color: #122D42;
 }
 
 #services div {
@@ -347,29 +348,43 @@ nav > ul > li > a:hover {
 }
 
 #services .column {
+    top: 111px;
     width: 32%;
-    height: 100%;
+    height: 85%;
 }
 
 #col1 {
-    background-color: red;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url(media/wedding-col.jpg);
 }
 
 #col2 {
     margin-left: 33%;
-    background-color: green;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url(media/birthday-col.jpg);
 }
 
 #col3 {
     margin-left: 66%;
-    background-color: blue;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url(media/party-col.jpg);
 }
 
-.price {
+.service-title {
     width: 100%;
     text-align: center;
-    font-size: 90px;
-    color: white;
+    font-size: 7em;
+    color: #F4E7D3;
     top: 48px;
-    font-family: "TitleFont"
+    font-family: 'TitleFont';
+}
+
+#service-title {
+
 }
