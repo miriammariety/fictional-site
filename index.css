@@ -122,6 +122,15 @@ nav > ul > li > a:hover {
     text-decoration: none;
 }
 
+footer > ul > li > a:hover {
+    font-weight: bold;
+    color: #11999E;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
 
 .Site {
   display: flex;
@@ -248,7 +257,7 @@ nav > ul > li > a:hover {
     text-align: center;
 }
 
-#email-button > a {
+.button > a {
     color: black;
     font-family: 'DescFont';
     letter-spacing: 5px;
@@ -257,7 +266,7 @@ nav > ul > li > a:hover {
     text-decoration: none;
 }
 
-#email-button {
+.button {
     background-color: rgb(244, 247, 247);
     border: none;
     color: white;
@@ -268,7 +277,7 @@ nav > ul > li > a:hover {
     cursor: pointer;
 }
 
-#email-button:hover {
+.button:hover {
     background-color: rgba(244, 247, 247, 0.75);
 }
 
@@ -351,6 +360,7 @@ nav > ul > li > a:hover {
     top: 111px;
     width: 32%;
     height: 85%;
+    text-align: center;
 }
 
 #col1 {
@@ -385,6 +395,24 @@ nav > ul > li > a:hover {
     font-family: 'TitleFont';
 }
 
-#service-title {
+.rate {
+    margin-top: 120px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: 'TitleFont';
+    font-size: 2em;
+}
 
+.inclusions {
+    width: 100%;
+    margin-top: 230px;
+    color: white;
+    font-weight: 900;
+    font-family: 'DescFont';
+    font-size: 3em;
+}
+
+.service-button {
+    margin-top: 560px;
 }
