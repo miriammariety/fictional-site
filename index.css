@@ -329,4 +329,9 @@ nav > ul > li > a:hover {
     text-align: center;
 }
 
+.anchor {
+    display: block;
+    visibility: hidden;
+    position: relative;
+    top: -77px;
 }
