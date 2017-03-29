@@ -39,7 +39,7 @@ footer > div > * {
 }
 
 footer > div > h4 {
-    color:
+    color: white;
 }
 
 footer ul {
@@ -114,6 +114,16 @@ nav > ul > li > a {
     padding: 0.5em 0.5em;
     text-decoration: none;
 }
+
+nav > ul > li > a:hover {
+    font-weight: bold;
+    color: #11999E;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
 
 .Site {
   display: flex;
@@ -202,9 +212,24 @@ nav > ul > li > a {
     vertical-align: middle;
 }
 
-#contact-details {
+#contact {
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.9)), url(media/contact-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+#contact-div {
     float: left;
     width: 55%;
+}
+
+#other-div {
+    margin-left: 55%;
+    width: 45%;
 }
 
 #contact-title {
@@ -228,11 +253,80 @@ nav > ul > li > a {
     text-align: center;
 }
 
-#contact {
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.9)), url(media/contact-bg.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+#email-button > a {
+    color: black;
+    font-family: 'DescFont';
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+#email-button {
+    background-color: rgb(244, 247, 247);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
     display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#email-button:hover {
+    background-color: rgba(244, 247, 247, 0.75);
+}
+
+#sm-title {
+    font-family: 'SecTitleFont';
+    color: #79A8A9;
+    width: 100%;
+    font-size: 2em;
+    letter-spacing: 5px;
+}
+
+#location-icons ul {
+    display: block;
+}
+
+#location-icons ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+#contact i {
+    color: white;
+    padding: 5px;s
+}
+
+#address {
+    font-weight: bold;
+    color: #F4F7F7;
+    font-family: 'DescFont';
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#tel-title {
+    font-family: 'SecTitleFont';
+    color: #79A8A9;
+    width: 100%;
+    font-size: 2em;
+    letter-spacing: 5px;
+}
+
+#tel-number {
+    font-weight: bold;
+    color: #F4F7F7;
+    font-family: 'DescFont';
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
 }
